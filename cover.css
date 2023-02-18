@@ -59,3 +59,43 @@ body {
 .blog {
     opacity: 0.5;
 }
+.space{
+    background-color: #193718;
+        padding: 40px;
+}
+.content{
+    background-color: #193718;
+    display: flex;
+    flex-direction: row;
+}
+.content-text{
+    width:90%;
+    color: rgb(255, 139, 255);
+    margin-left: 40px;
+    font-size: 25px;
+}
+.link-2 { 
+    text-decoration: underline;
+    color: rgb(255, 139, 255);
+    
+}
+.link-2:hover {
+    opacity: 0.5;
+
+}
+.card13{
+    margin-right: -35px;
+}
+.content-cards{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card3{
+  margin-top: -10px;
+}
+.card4 {
+    margin-top:-10px;
+} 
