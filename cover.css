@@ -67,12 +67,19 @@ body {
     background-color: #193718;
     display: flex;
     flex-direction: row;
+   
 }
 .content-text{
     width:90%;
     color: rgb(255, 139, 255);
     margin-left: 40px;
-    font-size: 25px;
+    
+}
+.heading1{
+    font-size: 45px;
+}
+.intro{
+    font-size: 21px;
 }
 .link-2 { 
     text-decoration: underline;
@@ -98,4 +105,15 @@ body {
 }
 .card4 {
     margin-top:-10px;
-} 
+}
+.TryChatGpt{
+    width: 140px;
+    height: 35px;
+    background-image: url("./Resources/btn-trychatgpt.PNG");
+    border-radius: 7px;
+    border: 0;
+}
+.date{
+    color: rgb(255, 139, 255);
+    
+}
