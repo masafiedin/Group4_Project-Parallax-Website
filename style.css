@@ -199,6 +199,10 @@
     margin-left: 500px;   
     position: fixed;           
   }
+  .box:hover {
+    filter: brightness(50%) saturate(50%) hue-rotate(50deg);
+    
+  }
   .searchbox{
     background-color: transparent;
     border: none; 
