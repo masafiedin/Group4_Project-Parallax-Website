@@ -141,12 +141,14 @@
 #chatBar{
     overflow: hidden;
     height:100%;
-    flex: 1;
+    width: 100%;
     background-color: rgb(52,53,65);
     color: white;
-    height: 720px;
+    height: 723px;
     font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-    padding-top: 1px;
+    overflow-x:auto;  
+    overflow-x: hidden;
+    
 }
 
 .container{
@@ -193,6 +195,42 @@
     font-size: 20px;
     font-weight: 400;
   }
- 
-        
+  .box2:hover {
+    transform: scale(1.1);
+  }
+  .box3 {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: #40414f;
+    border-radius: 5%;
+    width: 800px;
+    margin-top: 100px;   
+    margin-left: 500px;   
+    position: fixed;           
+  }
+  .box:hover {
+    filter: brightness(50%) saturate(50%) hue-rotate(50deg);
+    
+  }
+  .searchbox{
+    background-color: transparent;
+    border: none; 
+    width: 800px;
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    caret-color: white;
+    outline: none;
+  }
+  .icon-send{
+    height: 25px;
+    width: 25px;
+    padding: 15px 10px 10px 10px;
+    
+  }
+  .icon-send:hover {
+    filter: brightness(1.4) saturate(1) hue-rotate(0deg);
+    
+  }
   
