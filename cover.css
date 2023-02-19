@@ -157,7 +157,12 @@ body {
     width: 309px;
     height: 308px; 
 }
-
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(8, 23, 67);
+}
 .parallax1 {
     background-image: url("https://www.getfoundquick.com/wp-content/uploads/2023/01/shutterstock_1803136597.jpg");
     min-height: 400px;
@@ -167,50 +172,90 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax2{
-    min-height: 800px;
-    background-image: url("https://sciencenotes.org/wp-content/uploads/2022/07/What-Is-AI-or-Artificial-Intelligence.png");
+
+h4{
+    margin-right: 150px;
+}
+.parallax2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(229, 230, 234);
+    text-shadow: 2px 2px 8px aqua;
+    font-size: 25px;
+    background-color: rgb(8, 23, 67);
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 20px;
+ 
 }
 .parallax3 {
-    min-height: 120px;
-    background-image: url("./Resources/AI-img2.png");
+    min-height: 150px;
+    margin-top: -23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(229, 230, 234);
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/886/903/small/light-blue-green-blurred-background-vector.jpg");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgb(24, 30, 145);
 }
 .parallax4 {
     min-height: 650px;
-    background-image: url("https://media.licdn.com/dms/image/C5112AQHagqO2u3rITg/article-cover_image-shrink_600_2000/0/1561634067160?e=2147483647&v=beta&t=6EKkja_O3ygdgj7k7jPuxCdrT7L2nbGpQD50GJ9tPMQ");
+    background-image: url("./Resources/Types.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .parallax5 {
-    min-height: 300px;
-    background-image: url("./Resources/AI-img4.PNG");
-    background-attachment: local;
+    min-height: 150px;
+    margin-top: -23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(229, 230, 234);
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/886/903/small/light-blue-green-blurred-background-vector.jpg");
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(24, 30, 145);
 }
 .parallax6 {
-    min-height: 650px;
-    background-image: url("https://www.netsolutions.com/insights/wp-content/uploads/2022/12/ChatGPT-use-cases.webp");
+   
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+h3{
+    color: rgb(229, 230, 234);
+    text-shadow: 2px 2px 8px rgb(24, 30, 145);
 }
 @media only screen and (max-width: 479px) {
     .main{
         max-width: 100%;
         overflow: hidden; 
+        text-align: center;
     
     }
     .navbar {
@@ -281,7 +326,10 @@ body {
     .heading1 {
         font-size: 30px;
     }
-    
+   
     
 }
+
+
+
 
