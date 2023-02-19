@@ -290,18 +290,25 @@ body{
     filter: brightness(1.4) saturate(1) hue-rotate(0deg);
 
 }
+
+/*Muhiedin's Part */
 .muhie{
     background-color: rgb(68, 70, 84);
     /*margin-left: 250px;*/
+}
+
+.muhie p{
+  font-size: 1rem;
+  font-weight: lighter;
 }
 .user{
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: left;
-    background-color: rgba(52,53,65,255)   
-    
+    background-color: rgba(52,53,65,255)     
  }
+
   
  .chatgpt{
     display: flex;
