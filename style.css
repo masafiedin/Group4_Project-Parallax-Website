@@ -252,9 +252,9 @@ body{
     margin: 0 auto; 
     margin-top: 5vh;
     position: fixed;
-    bottom: 5%;
-    right: 14%;
-    overscroll-behavior:contain;
+    bottom: 20%;
+    right: 0%;
+    position: relative;
     
 
 }
