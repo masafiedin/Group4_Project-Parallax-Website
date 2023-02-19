@@ -136,7 +136,27 @@ body {
     color: rgb(255, 139, 255);
     
 }
+.card1:hover{
+    content: url(./Resources/flip1.PNG);
+    width: 309px;
+    height: 308px;
+}
 
+.card2:hover{
+    content: url(./Resources/flip2.PNG);
+    width: 309px;
+    height: 308px;
+}
+.card3:hover{
+    content: url(./Resources/flip3.PNG);
+    width: 309px;
+    height: 308px;
+}
+.card4:hover{
+    content: url(./Resources/flip4.PNG);
+    width: 309px;
+    height: 308px; 
+}
 @media only screen and (max-width: 479px) {
     .main{
         max-width: 100%;
