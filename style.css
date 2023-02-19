@@ -21,6 +21,10 @@
     background-color: #202123;
     color: white;
     overflow: hidden;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
 }
 
 #sideBar a {
@@ -269,7 +273,6 @@
     filter: brightness(1.4) saturate(1) hue-rotate(0deg);
 
 }
-<<<<<<< HEAD
 .muhie{
     background-color: rgb(68, 70, 84);
     margin-left: 250px;
@@ -460,5 +463,3 @@
        
     }
   }
-=======
->>>>>>> 33c692ca721b23995a06f9adf6ac9f9863c0bde0
