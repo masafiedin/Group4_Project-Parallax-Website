@@ -9,14 +9,21 @@
 }
 
 
+.container{
+  display: flex; 
+  flex-flow: row nowrap;
+  
+
+}
+
 #sideBar {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     width: 20%;
-    position: fixed;
-    height: 100%;
-    margin-top: 5px;
+    /*position: fixed;*/
+    height: 100vh;
+    padding-top: 5px;
     padding-left: 10px;
     background-color: #202123;
     color: white;
@@ -176,13 +183,13 @@
 
 /* Sana's part:   */
 #chatBar {
-    height: 723px;
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(52, 53, 65);
-    color: white;
-    font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    overflow-x: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  width: 80%;
+  background-color: rgb(52, 53, 65);
+  color: white;
+  overflow-x: hidden;
 }
 
 .p-style1 {
@@ -191,7 +198,7 @@
     margin-bottom: 4%;
     justify-content: center;
     align-items: center;
-    margin-left: 15%;
+    margin-top: 10%;
     font-size: 2.5vw;
     font-weight: 600;
 }
@@ -202,7 +209,8 @@
     align-items: center;
     width: 50%;
     flex-wrap: nowrap;
-    margin-left: 35%;
+    margin-left: auto;
+    margin-right: auto;
    }
 
 .box {
@@ -275,7 +283,7 @@
 }
 .muhie{
     background-color: rgb(68, 70, 84);
-    margin-left: 250px;
+    /*margin-left: 250px;*/
 }
 .user{
     display: flex;
