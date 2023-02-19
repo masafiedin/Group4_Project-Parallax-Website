@@ -399,15 +399,23 @@ body{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size: cover; 
 }
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 700px) {
   #sideBar {
     display: none;
   }
   #chatBar{
     width: 100%;
+  }
+  p{
+    font-size: 1rem;
+  font-weight: lighter;
+  text-shadow: 1px 1px 1px black;
+  }
+  .row{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
