@@ -255,6 +255,7 @@ body{
     bottom: 20%;
     right: 0%;
     position: relative;
+    
 
 }
 
@@ -276,13 +277,10 @@ body{
     bottom: 5%;
 
 }
-.chatBox{
-  overflow: hidden;
-  mask-position: bottom;
-}
+
 .chatBarUperBox{
   overflow:visible;
-  overscroll-behavior: contain;
+  position: relative;
 }
 
 .icon-send {
@@ -405,170 +403,11 @@ body{
   
 }
 
-
-
-
-
-/*
-  @media screen and (min-width: 280px) {
-    
-    .p-fsw{
-     
-        
-      margin-left:  0px;
-      font-size: 12px;
-      padding-bottom: 20px;
-    }   
-    .pgpt{
-     
-       width: 75%; 
-      margin-left:  0px;
-      font-size: 12px;
-       
-      
-    }   
-    .icon-gpt  {
-       margin-left:50px;
-       margin-top: 25px;
-        
-        
-     }
-     .icon-thumb {
-       margin-right: 50px;
-       margin-top: 25px;
-    
-        
-        
-     }
-     .icon-note{
-       margin-right: 50px;
-     }
-     
+@media screen and (max-width: 992px) {
+  #sideBar {
+    display: none;
   }
-  @media screen and (min-width: 360px) {
-    
-    .p-fsw{
-     
-        
-      margin-left:  0px;
-      font-size: 20px;
-      padding-bottom: 20px;
-    }   
-    .pgpt{
-      
-      margin-left:  0px;
-      
-      font-size: 20px;
-      padding-top: 10px;
-      
-    }   
-    .icon-gpt  {
-       margin-top: 25px;  
-       
-        
-        
-     }
-     .icon-thumb {
-       margin-top: 25px;
-       
-       margin-right: 50px;
-        
-     }
-     
-     .icon-note{
-       margin-right: 50px;
-        
-     }
-    
+  #chatBar{
+    width: 100%;
   }
-  @media screen and (min-width:680px) {
-    
-    .p-fsw{
-      
-      margin-left:  0px;
-      font-size:  25px;
-      margin-right: 150px;
-      padding-left: 0px;
-      padding-bottom: 20px;
-    }   
-    .pgpt{
-     
-        
-       
-      font-size: 25px;
-      margin-left: 30px;
-      
-    }   
-    .icon-gpt  {
-        
-       margin-top: 25px;
-       margin-left: 80px;         
-     }
-     .icon-thumb {
-       margin-top: 25px;
-       
-       margin-right: 50px;
-       padding-left: 30;
-        
-        
-     }
-     .icon-note{
-       margin-right: 0px;
-     }
-      
- 
-  }  
-   @media screen and (min-width:1260px) {
-    
-    .p-fsw{
-     
-       width: 60%; 
-       
-      font-size:   25px;
-      padding-top: 30px;
-      height: auto;
-      padding-left: -0px;   
-      margin-left: 40px;
-      padding-bottom: 20px;
-       
-     
-    }   
-    .pgpt{
-     
-       
-     
-      font-size: 25px;
-      height: auto;
-      
-      width: 70%;}
-     
- 
-     
-      .icon-thumb {
-        
-      margin-right: 30px;
-        
-        
-     }
-       
-     .icon-gpt  {
-       margin-left:50px;
-       
-        
-     } 
-     .icon-note{
-       margin-right: 50px;
-        
-     }
-     .usericon{
-       margin-left:50px;
-     }
-     .icon{
-       padding-left: 50px;
-     }
-    #imgg{
-       margin-right: 40px;
-       
-    }
-  }
-*/
+}
