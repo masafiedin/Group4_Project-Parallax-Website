@@ -2,83 +2,113 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Group4 Project</title>
 </head>
 
 <body>
     <div class="container">
         <div id="sideBar">
-            <div class="newpastChats">
-                <div class="newChat">
-                    <a href="#"><img src="./Resources/newchatLogo.png" alt="" width="35px" height="28px"></a>
-                    <input id="input" type="text" placeholder="New Chat">
-                </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px"></a>
-                    <Button class="sidebarButtons">Assisting with user request.</Button>
-                </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px"></a>
-                    <Button class="sidebarButtons">GitHub for version control.</Button>
-                </div>
-                <div class="Chat">
-                    <a class="color" href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px"></a>
-                    <Button class="sidebarButtons">Do Not Skip Class.</Button>
-                </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px"></a>
-                    <Button class="sidebarButtons">How to Graduate SE Factory.</Button>
+            <div class="newChat">
+                <a href="#"><img src="./Resources/newchatLogo.png" alt="" width="35px" height="28px" /></a>
+                <input id="input" type="text" placeholder="New Chat" />
+            </div>
+            <div class="pastChats">
+                <div class="pastChats">
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            Assisting with user request.
+                        </button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            GitHub for version control.
+                        </button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">Do Not Skip Class.</button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            How to Graduate SE Factory.
+                        </button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            How to Graduate SE Factory 2.
+                        </button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            How to Graduate SE Factory 3.
+                        </button>
+                    </div>
+                    <div class="Chat">
+                        <a href="#"><img src="./Resources/chatLogo.png" alt="" width="30px" height="30px" /></a>
+                        <button class="sidebarButtons">
+                            How to Graduate SE Factory 4.
+                        </button>
+                    </div>
                 </div>
             </div>
 
 
-            <div id="lowerMenu">
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/binLogo.png" alt="" width="30px" height="25px"></a>
-                    <Button class="sidebarButtons">Clear Conversations</Button>
+
+            <div class="lowerMenu">
+                <div class="options">
+                    <a href="#"><img src="Resources/binLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons">Clear Conversations</button>
                 </div>
+                <div class="options" id="newFeature">
 
+                    <a href="#"><img src="Resources/personLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons" id="upgToPlus">Upgrade to Plus</button>
 
-                <div id="newFeature" class="chat">
-                    <div class="Chat">
-                        <a href="#"><img src="./Resources/personLogo.png" alt="" width="30px" height="25px"></a>
-                        <Button class="sidebarButtons">Upgrade to Plus</Button>
-                    </div>
-                    <div class="textAlign">
+                    <div class="newTag">
                         <h5>NEW</h5>
                     </div>
                 </div>
-
-
-                <div class="Chat">
-                    <a class="color" href="#"><img src="./Resources/moonLogo.png" alt="" width="30px" height="25px"></a>
-                    <Button class="sidebarButtons">Dark mode</Button>
+                <div class="options">
+                    <a class href="#"><img src="./Resources/moonLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons">Dark mode</button>
                 </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/starLogo.png" alt="" width="30px" height="25px"></a>
-                    <Button class="sidebarButtons">Improve ChatGPT</Button>
+                <!--            <div class="options">
+                    <a href="#"><img src="./Resources/starLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons">Improve ChatGPT</button>
+                </div>-->
+                <div class="options">
+                    <a href="#"><img src="./Resources/extLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons">Updates & FAQ</button>
                 </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/extLogo.png" alt="" width="30px" height="25px"></a>
-                    <Button class="sidebarButtons">Updates & FAQ</Button>
+                <div class="options">
+                    <a href="#"><img src="./Resources/logoutLogo.png" alt="" width="30px" height="28px" /></a>
+                    <button class="sidebarButtons">Log out</button>
                 </div>
-                <div class="Chat">
-                    <a href="#"><img src="./Resources/logoutLogo.png" alt="" width="30px" height="25px"></a>
-                    <Button class="sidebarButtons">Log out</Button>
-                </div>
-
             </div>
         </div>
+
+
+
+
+
+
+
         <div id="chatBar">
             <p class="p-style1">ChatGPT</p>
             <div class="row">
-                <div class="box2"><img src="./Resources/icon_sun.PNG" alt="icon_sun"></div>
-                <div class="box2"><img src="./Resources/zz.PNG" alt="icon2"></div>
-                <div class="box2"><img src="./Resources/exc.PNG" alt="icon3"></div>
+                <div class="box2">
+                    <img src="./Resources/icon_sun.PNG" alt="icon_sun" />
+                </div>
+                <div class="box2"><img src="./Resources/zz.PNG" alt="icon2" /></div>
+                <div class="box2"><img src="./Resources/exc.PNG" alt="icon3" /></div>
             </div>
             <div class="row">
                 <div class="box2">
@@ -107,13 +137,9 @@
                 <div class="box"></div>
             </div>
             <div class="box3">
-                <input class="searchbox" type="text" placeholder="Are you ready to dive into Ai..?">
-                <img class="icon-send" src="./Resources/sent.PNG" alt="Search" id="search-button">
+                <input class="searchbox" type="text" placeholder="Are you ready to dive into Ai..?" />
+                <img class="icon-send" src="./Resources/sent.PNG" alt="Search" id="search-button" />
             </div>
-
-
-
-
         </div>
     </div>
 </body>
