@@ -269,7 +269,6 @@
     filter: brightness(1.4) saturate(1) hue-rotate(0deg);
 
 }
-<<<<<<< HEAD
 .muhie{
     background-color: rgb(68, 70, 84);
     margin-left: 250px;
@@ -307,6 +306,7 @@
         
       margin-left:  0px;
       font-size: 12px;
+      padding-bottom: 20px;
     }   
     .pgpt{
      
@@ -341,6 +341,7 @@
         
       margin-left:  0px;
       font-size: 20px;
+      padding-bottom: 20px;
     }   
     .pgpt{
       
@@ -379,6 +380,7 @@
       font-size:  25px;
       margin-right: 150px;
       padding-left: 0px;
+      padding-bottom: 20px;
     }   
     .pgpt{
      
@@ -420,6 +422,8 @@
       height: auto;
       padding-left: -0px;   
       margin-left: 40px;
+      padding-bottom: 20px;
+       
      
     }   
     .pgpt{
@@ -460,5 +464,3 @@
        
     }
   }
-=======
->>>>>>> 33c692ca721b23995a06f9adf6ac9f9863c0bde0
