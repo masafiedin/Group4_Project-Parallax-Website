@@ -6,13 +6,17 @@
     Cantarell, Noto Sans, sans-serif,
     Helvetica Neue, Arial, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    
 }
-
+body{
+  overflow-y: hidden;
+}
 
 .container{
   display: flex; 
   flex-flow: row nowrap;
   
+
 
 }
 
@@ -190,9 +194,11 @@
   background-color: rgb(52, 53, 65);
   color: white;
   overflow-x: hidden;
+  padding-bottom: 1vh;
+
 }
 
-.p-style1 {
+.title {
     display: flex;
     margin-top: 6%;
     margin-bottom: 4%;
@@ -203,6 +209,9 @@
     font-weight: 600;
 }
 
+.gridBox{
+  margin-bottom: 20%;
+}
 .row {
     display: flex;
     justify-content: center;
@@ -213,17 +222,8 @@
     margin-right: auto;
    }
 
-.box {
-    height: 70px;
-    background-color: rgb(59, 61, 74);
-    border-radius: 5%;
-    width: 40%;
-    margin-bottom: 2%;
-    margin-right: 2%;
-}
 
-
-.box2 {
+.gridBoxHeader {
     height: 30px;
     text-align: center;
     font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -234,22 +234,31 @@
     font-weight: 400;
 }
 
-.box2:hover {
+.gridBoxHeader:hover {
     transform: scale(1.1);
 }
+.box {
+  height: 70px;
+  background-color: rgb(59, 61, 74);
+  border-radius: 5%;
+  width: 40%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
 
-.box3 {
+.chatBox {
     
     background-color: #40414f;
-    border-radius: 5%;
+    border-radius: 5px;
     display: flex;
-    width: 90%;
+    width: 100%;
     max-width: 52%;
     margin: 0 auto; 
     margin-top: 5vh;
     position: fixed;
     bottom: 5%;
     right: 14%;
+
 }
 
 .box:hover {
