@@ -26,7 +26,6 @@ body {
   flex-flow: column nowrap;
   justify-content: space-between;
   width: 20%;
-  /*position: fixed;*/
   height: 100vh;
   padding-top: 5px;
   padding-left: 10px;
@@ -263,6 +262,8 @@ body {
   border-radius: 5%;
   margin-bottom: 2%;
   margin-right: 2%;
+  text-align: center;
+  align-items: center;
 }
 
 
