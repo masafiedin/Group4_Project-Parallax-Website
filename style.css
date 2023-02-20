@@ -17,7 +17,7 @@ body {
   flex-flow: row nowrap;
 }
 
-::placeholder{
+::placeholder {
   color: white;
 }
 
@@ -313,6 +313,7 @@ body {
   position: relative;
   border-bottom: black solid 10px;
 }
+
 .icon-send {
   height: 25px;
   width: 25px;
